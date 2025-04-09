@@ -1,10 +1,1 @@
-spring:
-  application:
-    name: chat_bot
-  ai:
-    openai:
-      api-key: sk-babff2e2943347ec85ac60fddc67ec61
-      base-url: https://api.deepseek.com
-      chat:
-        options:
-          model: deepseek-chat
+
