@@ -30,6 +30,8 @@ public class ChatController {
     @GetMapping("/generate")
     public Map generate(@RequestParam(value = "message", defaultValue = "Tell me a joke") String message) {
         // test
+        // code1111
+        // code2222
         return Map.of("generation", this.chatModel.call(message));
     }
 
