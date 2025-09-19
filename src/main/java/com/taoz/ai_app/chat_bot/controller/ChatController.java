@@ -38,6 +38,8 @@ public class ChatController {
         // code4444
         // code9999
         // code0000
+        // code7777
+        // code8888
         return Map.of("generation", this.chatModel.call(message));
     }
 
